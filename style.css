@@ -1,0 +1,48 @@
+ body nav h1 {
+
+    text-align: center ;
+    border-color: blue;
+    font-size: xx-large; 
+    background-color: grey;
+    position:static;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50px;
+    
+   
+  }
+  
+    main nav img { 
+    width: 700px;
+    border: 10px solid #2e518b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+ 
+ footer nav h3 {
+
+    text-align: center ;
+    border-color: blue;
+    font-size: xx-small; 
+    background-color: grey;
+   
+ }
+
+ main form  {
+
+  text-align: center;
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #2e518b ; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-top: 10px;
+
+ }
+
+ 
