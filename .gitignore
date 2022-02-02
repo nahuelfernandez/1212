@@ -1,0 +1,21 @@
+# archivos o carpetas a ignorar dentro del proyecto # 
+
+# ignorar archivos#
+
+nombreDelArchivo 
+
+#ignorar grupos de archivos# 
+
+.txt 
+
+.doc 
+
+#ignorar carpetas# 
+
+
+carpeta nueva 
+
+
+# ignorar subcarpetas# 
+
+nombreDelaCarpeta/nombreDelaSubcarpeta
