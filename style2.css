@@ -375,7 +375,7 @@ section article {
       /* fila 1 */
       "menu"
       /* fila 2 */
-      "servicios"
+      "menu"
       /* fila 3 */
       "pie";
 
@@ -438,7 +438,7 @@ section article {
   
   }
 } 
-/* Desktop 
+ Desktop 
 @media(min-width:1024px) { 
 
   header h1 {
@@ -477,7 +477,7 @@ section article {
     color: orange;
   }
 
-  /* Articulos de galeria 
+   Articulos de galeria 
   article {
     background-color: #fff;
     border-radius: 4px;
@@ -494,15 +494,15 @@ section article {
  
   #gridAreas {
     display: grid;
-    /* grid por areas 
+     grid por areas 
     grid-template-areas:
-      /* 3 columnas y 4 filas 
+      
       "cabeza cabeza logo"
-      /* fila 1 
+      
       "menu productos pepe"
-      /* fila 2 
+      
       "servicios servicios servicios"
-      /* fila 3 
+      
       "pie pie pie";
   
   
@@ -517,21 +517,21 @@ section article {
   
   }  
 
-  /* MENU FLEX 
+   MENU FLEX 
   .flexMenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
 
-  /* GALERIA FLEX 
+   GALERIA FLEX 
   .productosFlex {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
   }
 
-  /*publicidad Flex
+  
   #publicidad {
     display: flex;
     flex-direction: column;
@@ -571,5 +571,5 @@ section article {
 } 
   
 }
-*/ 
+
 
