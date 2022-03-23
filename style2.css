@@ -370,7 +370,7 @@ section article {
     display: grid;
     /* grid por areas */
     grid-template-areas:
-      /* 2 columnas y 4 filas */
+      /* 1 columnas y 4 filas */
       "cabeza"
       /* fila 1 */
       "menu"
@@ -438,8 +438,8 @@ section article {
   
   }
 } 
- Desktop 
-@media(min-width:1024px) { 
+/* Desktop */
+@media(max-width:1024px) { 
 
   header h1 {
 
@@ -494,7 +494,7 @@ section article {
  
   #gridAreas {
     display: grid;
-     grid por areas 
+     /*grid por areas */
     grid-template-areas:
       
       "cabeza cabeza logo"
@@ -517,14 +517,14 @@ section article {
   
   }  
 
-   MENU FLEX 
+  /* MENU FLEX*/
   .flexMenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
 
-   GALERIA FLEX 
+  /* GALERIA FLEX */
   .productosFlex {
     display: flex;
     flex-flow: column nowrap;
