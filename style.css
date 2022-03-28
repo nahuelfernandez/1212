@@ -30,7 +30,7 @@
    
  }
 
- main form  {
+ main section  {
 
   text-align: center;
   border: 1px solid #2e518b; /*anchura, estilo y color borde*/
@@ -45,4 +45,32 @@
 
  }
 
- 
+ .botones {
+  width: 100%;
+  text-align: center;
+}
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.boton4 {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+.boton4:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+
