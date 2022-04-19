@@ -408,7 +408,7 @@ section article {
   
   .portada { 
     display: flex;
-    width: 40vh ;
+    width: 35vh ;
     height: 40vh; 
     margin: 1vh;
   }

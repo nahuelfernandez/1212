@@ -4,89 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style4.css" rel="stylesheet"> 
-    
-       <title>Pedidos</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <title>page four</title>
 </head>
-<body>  
-
-
+<body>
     
-</head> 
-<body> 
-  <body id="gridAreas">
-    <header class="border">
-    <!-- <h1>Welcome to Sunderland Bar </h1> -->
-        <center>
-            <img src="img/portada.jpg" alt="" class="portada">
-            <img src="img/portada.jpg" alt="" class="portada">
+    <header>
         
-        </center>   
     </header> 
-    
-    <section class="border"> 
-        <div id="divlogo" >
-            <img src="img/logo.jpg" alt="" class="logo">
-            <img src="img/logo.jpg" alt="" class="logo">
-        </div>
-
-    </section>
-      <section>
 
 
-
-        
-      </section>
-        
-        
-      
-        <section id="servicios" class="border productosFlex">
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-            
-            
-            <!-- Your share button code -->
-            <div class="fb-share-button" 
-            data-href="https://www.your-domain.com/your-page.html" 
-            data-layout="button_count">
+    <main class="container">
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            
-
-            
-        </section>
-          <!--   
-          <nav class="border flexMenu">
-            <h3>Menu Flex</h3> 
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/portada.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/bar2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/bar1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <div class="container">
+            <h1> Completa el formulario- podes disfrutar de beneficios increibles  </h1> 
         
-            <a href="pagina3.html">Pedido </a> 
-            <a href="pagina3.html">Login </a>
-            <a href="pagina3.html">Reservas </a>
-            <a href="pagina3.html">Contacto </a>
-            <a href="pagina3.html">Nosotros </a>
-        </nav>
-         --> 
-      <aside id="publicidad" class="border">
-         <h3>Pepe</h3> 
-          <img src="img/publi.jpg" alt="" class="publi">
-         
-        </aside>
-      
-     <footer class="border">
-         <h3>Tech Support Rosario 2022</h3>
-        </footer>
+            </div>
+        
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <fieldset>
+                                    <legend class="text-center header">Registrarte</legend>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" id="message" name="message" placeholder="En este espacio queremos que nos compartas de que manera nos conociste.Gracias por tu visita" rows="7"></textarea>
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            </div> 
 
 
-      
 
-        <a href="pagina2.html">Back to </a>
-        <script src="formjs.js"></script>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br> <br>
+
+    <footer class="border">
+        Tech Support Rosario 2022
+       </footer>
+
+
+    <script src="js/bootstrap.js" > </script>
     
-        
 </body>
 </html>

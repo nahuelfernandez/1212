@@ -64,6 +64,16 @@
 *::after {
   box-sizing: border-box;
 }
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -11264,3 +11274,15 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* modificación del footer */
+footer {
+  grid-area: pie;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: xx-small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blanchedalmond;
+
+}
