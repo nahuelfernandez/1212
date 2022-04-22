@@ -1,76 +1,606 @@
- body nav h1 {
+body nav h1 {
 
-    text-align: center ;
-    border-color: blue;
-    font-size: xx-large; 
-    background-color: grey;
-    position:static;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 50px;
-    
-   
-  }
+  text-align: center ;
+  border-color: blue;
+  font-size: xx-large; 
+  background-color: grey;
+  position:static;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 50px;
   
-    main nav img { 
-    width: 700px;
-    border: 10px solid #2e518b;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+ 
+}
+
+  main nav img { 
+  width: 700px;
+  border: 10px solid #2e518b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 } 
 
+
+footer nav h3 {
+
+  text-align: center ;
+  border-color: white;
+  font-size: xx-small; 
+  background-color: black;
  
- footer nav h3 {
+}
 
-    text-align: center ;
-    border-color: blue;
-    font-size: xx-small; 
-    background-color: grey;
-   
- }
-
- main section  {
-
-  text-align: center;
-  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
-  background-color: #2e518b ; /*color botón*/
-  color: #ffffff; /*color texto*/
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
-  margin-top: 10px;
-
- }
-
- .botones {
-  width: 100%;
-  text-align: center;
+.botones {
+width: 100%;
+text-align: center;
 }
 
 .titulo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  text-decoration: none;
-  color: #333333;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: #333333;
 }
 
 .boton4 {
-  color: rgba(255, 255, 255, 0.9) !important;
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: #318aac;
-  border: 2px solid;
-  border-color: #318aac;
-  position: relative;
+color: rgba(255, 255, 255, 0.9) !important;
+font-size: 15px;
+font-weight: 500;
+padding: 0.5em 1.2em;
+background: #318aac;
+border: 2px solid;
+border-color: #318aac;
+position: relative;
 }
 .boton4:hover {
-  color: rgba(255, 255, 255, 1) !important;
-  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-  transition: all 0.2s ease;
+color: rgba(255, 255, 255, 1) !important;
+box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+transition: all 0.2s ease;
 }
 
 
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+header h1 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+
+
+}
+
+.border {
+  border: 1px solid black;
+}
+
+body {
+  height: 100%;
+
+}
+
+a {
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: black;
+  color: orange;
+}
+
+/* Articulos de galeria */
+article {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 5px;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 5px;
+}
+
+/* Nombrar las areas */
+header {
+  grid-area: cabeza;
+  /* background-color:; */
+  background-image: linear-gradient(45deg , red, lightblue);
+  padding: 10px;
+}
+
+footer {
+  grid-area: pie;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: xx-small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blanchedalmond;
+
+}
+
+#productos {
+  grid-area: productos;
+   background-color: grey; 
+  background-image: linear-gradient(180deg, red, lightblue);
+  padding: 10px;
+}
+
+main  {
+  grid-area: servicios;
+  background-color: grey;
+  padding: 10px;
+
+}
+
+.bar {
+  width: 40vh;
+  height: 40vh;
+
+}
+
+
+nav {
+  grid-area: menu;
+  background-color: grey;
+  padding: 10px;
+
+}
+
+aside {
+  grid-area: pepe;
+  /* background-color: rgb(190, 190, 120); */
+  background-image: linear-gradient(180deg, red, yellow);
+  padding: 10px;
+}
+
+div {
+  grid-area: logo;
+  background-color: grey;
+  padding: 10px;
+
+}
+
+/* MENU FLEX */
+.flexMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* GALERIA FLEX */
+.productosFlex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.publi {
+  width: 30vh;
+  height: 150vh;
+  margin: 2px;
+
+}
+
+#divlogo {
+  background-color: white;
+}
+
+.logo {
+
+  width: 100%;
+  height: 100%;
+
+  margin: 1vh;
+}
+
+.portada {
+
+  width: 70vh;
+  height: 60vh;
+}
+
+section article {
+  background-image: linear-gradient(to right, red, lightblue);
+
+}
+
+/*tablet*/
+@media(min-width:768px) and (max-width:1023px) {
+
+  header h1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+  
+  
+  }
+  
+  .border {
+    border: 1px solid black;
+  }
+
+  body {
+    width: 100vh;
+  }
+
+  span {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  span:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  /* Articulos de galeria */
+  article {
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  article h3 {
+    margin: 20px 20px;
+  }
+
+  #gridAreas {
+    display: grid;
+    /* grid por areas */
+    grid-template-areas:
+      /* 2 columnas y 4 filas */
+      "cabeza "
+      /* fila 2 */
+      "servicios"
+      /* fila 3 */
+      "pie";
+
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 3px black;
+    grid-row-gap: 3px black;
+  }
+
+
+
+  /* MENU FLEX */
+  .flexMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  /* GALERIA FLEX */
+  .productosFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+
+  /*publicidad Flex*/
+  #publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+  }
+  .publi {
+    width: 30vh;
+    height: 150vh;
+    margin: 2px;
+  
+  }
+  
+  #divlogo {
+    background-color: white;
+  }
+  
+  .logo {
+  
+    width: 100%;
+    height: 100%;
+  
+    margin: 1vh;
+  }
+  
+  .portada {
+  
+    width: 70vh;
+    height: 60vh;
+  }
+  
+  section article {
+    background-image: linear-gradient(to right, red, lightblue);
+  
+  }
+
+}
+
+@media(max-width:768px) {
+
+
+  header h1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+  
+  
+  }
+  
+  .border {
+    border: 1px solid black;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  span {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  span:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  /* Articulos de galeria */
+  article {
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  article h3 {
+    margin: 20px 20px;
+  }
+
+  #gridAreas {
+    display: grid;
+    /* grid por areas */
+    grid-template-areas:
+      /* 1 columnas y 4 filas */
+      "cabeza "
+      /* fila 1 */
+      "servicios"
+      /* fila 2 */
+      "pie";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 0fr;
+    grid-column-gap: 1px black;
+    grid-row-gap: 3px black;
+  }
+
+
+
+  /* MENU FLEX */
+  .flexMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  /* GALERIA FLEX */
+  .productosFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  /*.productosFlex2 {
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  } 
+  */
+
+  /*publicidad Flex*/
+  #publicidad {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+  } 
+  .publi {
+    width: 30vh;
+    height: 150vh;
+    margin: 2px;
+  
+  }
+  
+  #divlogo {
+    background-color: white;
+  }
+  
+  .logo { 
+    display: none;
+    width: 100%;
+    height: 100%;
+  
+    margin: 1vh;
+  } 
+  
+  
+  .portada { 
+    display: flex;
+    width: 35vh ;
+    height: 40vh; 
+    margin: 1vh;
+  }
+  
+  section article {
+    background-image: linear-gradient(to bottom right, red, lightblue);
+  
+  }
+} 
+/* Desktop */
+@media(min-width:1024px) { 
+
+  header h1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+  
+  
+  }
+
+
+  .border {
+    border: 1px solid black;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  span {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  span:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  /* Articulos de galeria */
+  article {
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  article h3 {
+    margin: 20px 20px;
+  }
+
+ 
+  #gridAreas {
+    display: grid;
+     /*grid por areas */
+    grid-template-areas:
+      
+      "cabeza cabeza cabeza"
+      
+      "servicios servicios servicios"
+
+       "pie pie pie ";
+  
+  
+  
+  
+  
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 2px black;
+    grid-row-gap: 2px black;
+  
+  
+  }  
+
+  /* MENU FLEX*/
+  .flexMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  /* GALERIA FLEX */
+  .productosFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+
+  
+  #publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+  } 
+  .publi {
+    width: 30vh;
+    height: 150vh;
+    margin: 2px;
+  
+  }
+  
+  #divlogo {
+    background-color: white;
+  }
+  
+  .logo {
+  
+    width: 100%;
+    height: 100%;
+  
+    margin: 1vh;
+  }
+  
+  .portada {
+  
+    width: 70vh;
+    height: 60vh;
+  }
+  
+  section article {
+    background-image: linear-gradient(to right, red, lightblue);
+  
+
+
+} 
+  
+}
