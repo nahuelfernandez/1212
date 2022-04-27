@@ -188,7 +188,7 @@ section article {
 }
 
 /*tablet*/
-@media(min-width:481px) and (max-width:1023px) {
+@media(min-width:768px) and (max-width:1023px) {
 
   header h1 {
 
@@ -314,7 +314,7 @@ section article {
 
 }
 
-@media(max-width:480px) {
+@media(max-width:768px) {
 
 
   header h1 {
@@ -370,17 +370,15 @@ section article {
     display: grid;
     /* grid por areas */
     grid-template-areas:
-      /* 2 columnas y 4 filas */
+      
       "cabeza"
-      /* fila 1 */
-      "menu"
-      /* fila 2 */
-      "servicios"
-      /* fila 3 */
-      "pie";
 
-    grid-template-columns: auto;
-    grid-template-rows: 15% 1fr 10% 0fr;
+      "productos"
+      
+      "pie ";
+
+    grid-template-columns: 0fr;
+    grid-template-rows: 1fr 0fr 0fr ;
     grid-column-gap: 3px black;
     grid-row-gap: 3px black;
   }
@@ -397,6 +395,12 @@ section article {
   /* GALERIA FLEX */
   .productosFlex {
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  /* bloquea la funcion Flex */
+  .productosFlex2 {
+    display: none;
     flex-flow: column nowrap;
     justify-content: space-around;
   }
@@ -430,7 +434,7 @@ section article {
   .portada {
   
     width: 70vh;
-    height: 60vh;
+    height: 70vh;
   }
   
   section article {
