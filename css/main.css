@@ -11,7 +11,7 @@ body nav h1 {
 main nav img {
   width: 700px;
   border: 10px solid #2e518b;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto; }
 
@@ -111,8 +111,7 @@ article {
 /* Nombrar las areas */
 header {
   grid-area: cabeza;
-  /* background-color:; */
-  background-image: linear-gradient(45deg, red, lightblue);
+  background-color: red;
   padding: 10px; }
 
 footer {
@@ -296,8 +295,8 @@ section article {
     display: grid;
     /* grid por areas */
     grid-template-areas: "cabeza " "servicios" "pie";
-    grid-template-columns: 1fr;
-    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 2fr;
     grid-column-gap: 1px black;
     grid-row-gap: 3px black; }
   /* MENU FLEX */
@@ -339,6 +338,12 @@ section article {
     margin: 1vh; }
   section article {
     background-image: linear-gradient(to bottom right, red, lightblue); } }
+
+.container {
+  width: 100%; }
+
+img {
+  width: 100%; }
 
 /* Desktop */
 @media (min-width: 1024px) {
