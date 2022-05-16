@@ -371,13 +371,13 @@ section article {
     /* grid por areas */
     grid-template-areas:
       
-      "cabeza"
+      "productos"
 
       "productos"
       
       "pie ";
 
-    grid-template-columns: 0fr;
+    grid-template-columns: auto;
     grid-template-rows: 1fr 0fr 0fr ;
     grid-column-gap: 3px black;
     grid-row-gap: 3px black;
@@ -394,6 +394,12 @@ section article {
 
   /* GALERIA FLEX */
   .productosFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+
+  .FlexAdaptado {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -441,12 +447,12 @@ section article {
     background-image: linear-gradient(to bottom right, red, lightblue);
   
   }
-} 
-/* Desktop 
+}
+
+
+/* Desktop
 @media(min-width:1024px) { 
-
   header h1 {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -457,16 +463,12 @@ section article {
   
   
   }
-
-
   .border {
     border: 1px solid black;
   }
-
   body {
     width: 100vh;
   }
-
   span {
     background-color: #fff;
     margin-bottom: 5px;
@@ -475,12 +477,10 @@ section article {
     text-align: center;
     border-radius: 5px;
   }
-
   span:hover {
     background-color: black;
     color: orange;
   }
-
   /* Articulos de galeria 
   article {
     background-color: #fff;
@@ -490,11 +490,9 @@ section article {
     font-size: 0.75rem;
     padding: 5px;
   }
-
   article h3 {
     margin: 20px 20px;
   }
-
  
   #gridAreas {
     display: grid;
@@ -520,21 +518,18 @@ section article {
   
   
   }  
-
   /* MENU FLEX 
   .flexMenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
-
   /* GALERIA FLEX 
   .productosFlex {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
   }
-
   /*publicidad Flex
   #publicidad {
     display: flex;
@@ -570,10 +565,7 @@ section article {
   section article {
     background-image: linear-gradient(to right, red, lightblue);
   
-
-
 } 
   
 }
 */ 
-
