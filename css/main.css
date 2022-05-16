@@ -256,7 +256,7 @@ section article {
     width: 70vh;
     height: 60vh; }
   section article {
-    background-image: linear-gradient(to right, red, lightblue); } }
+    background-color: #BC2311; } }
 
 @media (max-width: 768px) {
   header h1 {
@@ -296,7 +296,7 @@ section article {
     /* grid por areas */
     grid-template-areas: "cabeza " "servicios" "pie";
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-rows: 0fr 1fr 0fr;
     grid-column-gap: 1px black;
     grid-row-gap: 3px black; }
   /* MENU FLEX */
@@ -310,11 +310,11 @@ section article {
     flex-flow: column nowrap;
     justify-content: space-around; }
   /*.productosFlex2 {
-    display: none;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-  } 
-  */
+      display: none;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+    } 
+    */
   /*publicidad Flex*/
   #publicidad {
     display: none;
@@ -337,7 +337,7 @@ section article {
     height: 40vh;
     margin: 1vh; }
   section article {
-    background-image: linear-gradient(to bottom right, red, lightblue); } }
+    background-color: #BC2311; } }
 
 .container {
   width: 100%; }
@@ -415,4 +415,4 @@ img {
     width: 70vh;
     height: 60vh; }
   section article {
-    background-image: linear-gradient(to right, red, lightblue); } }
+    background-color: #BC2311; } }

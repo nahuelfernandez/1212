@@ -371,14 +371,14 @@ section article {
     /* grid por areas */
     grid-template-areas:
       
-      "productos"
+      "productos "
 
-      "productos"
-      
-      "pie ";
+      "productos" 
+      "productos "
+      "pie" ;
 
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 0fr 0fr ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr auto;
     grid-column-gap: 3px black;
     grid-row-gap: 3px black;
   }

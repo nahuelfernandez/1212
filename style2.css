@@ -5,7 +5,14 @@
   font-family: sans-serif;
 
 }
+h3{
+  font-family:'Nunito Sans', sans-serif;
+}
 
+p {
+  font-family: 'Roboto';
+  font-size: medium;
+}
 header h1 {
 
   display: flex;
@@ -13,7 +20,7 @@ header h1 {
   justify-content: center;
   align-items: stretch;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
   font-size: xx-large;
 
 
@@ -25,7 +32,7 @@ header h1 {
 
 body {
   height: 100%;
-
+  
 }
 
 a {
@@ -60,7 +67,7 @@ article {
 header {
   grid-area: cabeza;
   /* background-color:; */
-  background-image: linear-gradient(45deg , red, lightblue);
+  background-color: #BC2311;
   padding: 10px;
 }
 
@@ -78,7 +85,7 @@ footer {
 #productos {
   grid-area: productos;
   /* background-color: grey; */
-  background-image: linear-gradient(180deg, red, lightblue);
+  background-color: #46A2F9;
   padding: 10px;
 }
 
@@ -106,7 +113,7 @@ nav {
 aside {
   grid-area: pepe;
   /* background-color: rgb(190, 190, 120); */
-  background-image: linear-gradient(180deg, red, yellow);
+  background-color: #46A2F9;
   padding: 10px;
 }
 
@@ -156,7 +163,7 @@ div {
 }
 
 section article {
-  background-image: linear-gradient(to right, red, lightblue);
+  background-color: #BC2311;
 
 }
 
@@ -281,7 +288,7 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to right, red, lightblue);
+    background-color: ;
   
   }
 
@@ -414,7 +421,7 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to bottom right, red, lightblue);
+    background-color: #BC2311;
   
   }
 } 
@@ -544,7 +551,7 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to right, red, lightblue);
+    background-color: #BC2311;
   
 
 
