@@ -382,7 +382,9 @@ img {
   #gridAreas {
     display: grid;
     /*grid por areas */
-    grid-template-areas: "cabeza cabeza cabeza"  "servicios servicios servicios"  "pie pie pie ";
+    grid-template-areas: "cabeza cabeza cabeza"
+  "servicios servicios servicios"
+  "pie pie pie ";
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     grid-column-gap: 2px black;

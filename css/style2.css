@@ -5,23 +5,14 @@
   font-family: sans-serif;
 
 }
-
-
-.header {
-
-  color: #36A0FF;
-  font-size: 27px;
-  padding: auto;
-  margin: auto;
-
-
+h3{
+  font-family:'Nunito Sans', sans-serif;
 }
 
-.bigicon {
-  font-size: 35px;
-  color: #36A0FF;
+p {
+  font-family: 'Roboto';
+  font-size: medium;
 }
-
 header h1 {
 
   display: flex;
@@ -29,7 +20,7 @@ header h1 {
   justify-content: center;
   align-items: stretch;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
   font-size: xx-large;
 
 
@@ -41,7 +32,7 @@ header h1 {
 
 body {
   height: 100%;
-
+  
 }
 
 a {
@@ -76,7 +67,7 @@ article {
 header {
   grid-area: cabeza;
   /* background-color:; */
-  background-image: linear-gradient(45deg , red, lightblue);
+  background-color: #BC2311;
   padding: 10px;
 }
 
@@ -94,7 +85,7 @@ footer {
 #productos {
   grid-area: productos;
   /* background-color: grey; */
-  background-image: linear-gradient(180deg, red, lightblue);
+  background-color: #46A2F9;
   padding: 10px;
 }
 
@@ -122,7 +113,7 @@ nav {
 aside {
   grid-area: pepe;
   /* background-color: rgb(190, 190, 120); */
-  background-image: linear-gradient(180deg, red, yellow);
+  background-color: #46A2F9;
   padding: 10px;
 }
 
@@ -148,7 +139,7 @@ div {
 
 .publi {
   width: 30vh;
-  height: 150vh;
+  height: 90%;
   margin: 2px;
 
 }
@@ -172,7 +163,7 @@ div {
 }
 
 section article {
-  background-image: linear-gradient(to right, red, lightblue);
+  background-color: #BC2311;
 
 }
 
@@ -297,7 +288,7 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to right, red, lightblue);
+    background-color: ;
   
   }
 
@@ -430,7 +421,7 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to bottom right, red, lightblue);
+    background-color: #BC2311;
   
   }
 } 
@@ -490,13 +481,13 @@ section article {
  
   #gridAreas {
     display: grid;
-     /*grid por areas*/
+     /*grid por areas */
     grid-template-areas:
       
       "cabeza cabeza logo"
       
-      "productos productos pepe"
-
+      "menu productos pepe"
+      
       "servicios servicios servicios"
       
       "pie pie pie";
@@ -513,14 +504,14 @@ section article {
   
   }  
 
- /* MENU FLEX */
+  /* MENU FLEX*/
   .flexMenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
 
-   /*gaLERIA FLEX */
+  /* GALERIA FLEX */
   .productosFlex {
     display: flex;
     flex-flow: column nowrap;
@@ -534,10 +525,14 @@ section article {
     justify-content: flex-start;
   
   } 
+
   .publi {
     width: 30vh;
-    height: 150vh;
+    height: 100%;
     margin: 2px;
+  
+  }
+  
   
   }
   
@@ -560,11 +555,22 @@ section article {
   }
   
   section article {
-    background-image: linear-gradient(to right, red, lightblue);
+    background-color: #BC2311;
   
 
 
 } 
-
+.mapa1{
+  display: flex;
   
+  justify-content: center;
+
+ 
+  
+}
+  
+iframe{
+  width: 100px;
+  height: 100px;
+}
 }
