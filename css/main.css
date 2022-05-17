@@ -46,7 +46,7 @@ main section {
   text-align: center; }
 
 .titulo {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: $letratitulo;*/
   font-size: 12px;
   text-decoration: none;
   color: #333333; }
@@ -78,7 +78,7 @@ header h1 {
   justify-content: center;
   align-items: stretch;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-size: xx-large; }
 
 .border {
@@ -193,7 +193,7 @@ section article {
     justify-content: center;
     align-items: stretch;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: xx-large; }
   .border {
     border: 1px solid black; }
@@ -265,7 +265,7 @@ section article {
     justify-content: center;
     align-items: stretch;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: xx-large; }
   .border {
     border: 1px solid black; }
@@ -296,7 +296,7 @@ section article {
     /* grid por areas */
     grid-template-areas: "cabeza " "servicios" "pie";
     grid-template-columns: auto;
-    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr 2fr;
     grid-column-gap: 1px black;
     grid-row-gap: 3px black; }
   /* MENU FLEX */
@@ -353,7 +353,7 @@ img {
     justify-content: center;
     align-items: stretch;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: xx-large; }
   .border {
     border: 1px solid black; }
