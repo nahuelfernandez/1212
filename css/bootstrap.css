@@ -92,6 +92,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #BC2311;
 }
 
 hr {
@@ -111,10 +112,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: lightblue;
 }
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -5679,6 +5682,8 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 991.98px) {
+
+
   .modal-fullscreen-lg-down {
     width: 100vw;
     max-width: none;

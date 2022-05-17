@@ -560,17 +560,5 @@ section article {
 
 
 } 
-.mapa1{
-  display: flex;
-  
-  justify-content: center;
 
- 
-  
-}
-  
-iframe{
-  width: 100px;
-  height: 100px;
-}
 }
