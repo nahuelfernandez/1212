@@ -56,9 +56,9 @@
   display: none;
 }
 .container {
-  position: relative;
+  position: absolute;
   z-index: 1;
-  max-width: 300px;
+  max-width: auto;
   margin: 0 auto;
 }
 .container:before, .container:after {
@@ -213,13 +213,13 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
-  /* hide the vertical line */
+   
   .vl {
     display: none;
   }
-  /* show the hidden text on small screens */
+
   .hide-md-lg {
     display: block;
-    text-align: center;
+    text-align: center;*/
   }
 }
